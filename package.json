@@ -1,0 +1,35 @@
+{
+  "name": "aque-discord",
+  "version": "1.0.0",
+  "description": "A discord bot framework on node using discord.js",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "module": "./src/index.mjs",
+  "types": "./dist/index.d.ts",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.23.1",
+    "discord.js": "^13.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.10"
+  },
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "compile": "tsc",
+    "run": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aquellia/AqueDiscord.git"
+  },
+  "author": "Aquellia <https://github.com/Aquellia>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aquellia/AqueDiscord/issues"
+  },
+  "homepage": "https://github.com/Aquellia/AqueDiscord#readme"
+}

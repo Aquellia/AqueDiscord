@@ -1,0 +1,30 @@
+{
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    // Type Checking
+    "strict": true,
+    "alwaysStrict": false,
+    // Modules
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "rootDir": "src/",
+    "resolveJsonModule": true,
+    // Emit
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "removeComments": false,
+    "sourceMap": true,
+    // JS Support
+    "allowJs": false,
+    // Language and Environment
+    "target": "ES2020",
+    // Output Formatting
+    "pretty": true
+  }
+}
