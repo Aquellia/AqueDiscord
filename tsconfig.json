@@ -9,8 +9,9 @@
     // Type Checking
     "strict": true,
     "alwaysStrict": false,
+    "noImplicitOverride": true,
     // Modules
-    "module": "ES2020",
+    "module": "CommonJS",
     "moduleResolution": "Node",
     "rootDir": "src/",
     "resolveJsonModule": true,
@@ -23,7 +24,8 @@
     // JS Support
     "allowJs": false,
     // Language and Environment
-    "target": "ES2020",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
     // Output Formatting
     "pretty": true
   }
